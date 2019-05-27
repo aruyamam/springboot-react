@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface CarRepository extends CrudRepository<Car, Long> {
     // Fetch cars by brand and sort by year
-    List<Car> findByBrandOrderByYearsAsc(String brand);
+    List<Car> findByBrandOrderByYearAsc(String brand);
 }
